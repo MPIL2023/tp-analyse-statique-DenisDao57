@@ -4,9 +4,13 @@
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
   <version>2.7.3</version>
-  <modules>
-    <module>spring-petclinic</module>
-  </modules>
+  <profiles>
+    <profile>
+      <modules>
+        <module>spring-petclinic</module>
+      </modules>
+    </profile>
+  </profiles>
   <properties>
     <sonar.organization>mpil2023</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
